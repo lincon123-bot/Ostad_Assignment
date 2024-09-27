@@ -4,14 +4,12 @@ class Car {
   int year;
 
   Car(this.brand, this.model, this.year);
-
   int carAge() {
     int currentYear = DateTime.now().year;
     return currentYear - year;
   }
 }
-
-void main() {
+void main(){
   Car myCar = Car('Toyota', 'Corolla', 2015);
 
   print('Brand: ${myCar.brand}');
