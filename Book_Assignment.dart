@@ -32,9 +32,9 @@ class Book {
 }
 
 void main() {
-  Book book1 = Book("Dart Version 1", "Lincon Chondro Roy", 2011, 250);
-  Book book2 = Book("Dart Version 2", "Lincon Chondro Roy", 2012, 230);
-  Book book3 = Book("Dart Version 3", "Lincon Chondro Roy", 2013, 220);
+  Book book1 = Book("Dart Version 1", "Lincon Roy", 2011, 250);
+  Book book2 = Book("Dart Version 2", "Lincon Roy", 2012, 230);
+  Book book3 = Book("Dart Version 3", "Lincon Roy", 2013, 220);
 
   book1.read(30);
   book2.read(40);
