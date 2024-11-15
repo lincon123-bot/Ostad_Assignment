@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 void main() {
   runApp(MyApp());
 }
-
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -13,7 +12,6 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-
 class MyProfilePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -42,7 +40,7 @@ class MyProfilePage extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             ProfileItem(
-              icon: Icons.icecream,
+              icon: Icons.icecream_outlined,
               text: 'Ice cream is very delicious right?',
             ),
             SizedBox(height: 20),
@@ -61,7 +59,6 @@ class MyProfilePage extends StatelessWidget {
     );
   }
 }
-
 class ProfileItem extends StatelessWidget {
   final IconData icon;
   final String text;
@@ -78,7 +75,7 @@ class ProfileItem extends StatelessWidget {
           child: Icon(
             icon,
             size: 50,
-            color: Colors.purple,
+            color: Colors.deepPurple,
           ),
         ),
         SizedBox(height: 10),
